@@ -1,0 +1,17 @@
+.root {
+  background-color: var(--mantine-color-purpleHoneycreeper-6);
+  border-radius: 100%;
+  width: 64px;
+  height: 64px;
+  padding: rem(20px);
+
+  @mixin hover {
+    background-color: var(--mantine-color-mattBlack-6);
+  }
+
+  @media (min-width: $mantine-breakpoint-xl) {
+    height: 96px;
+    width: 96px;
+    padding: rem(26px);
+  }
+}

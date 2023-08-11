@@ -1,0 +1,12 @@
+.result {
+  font-size: rem(56px);
+  line-height: rem(56px);
+  font-weight: 800;
+  font-style: italic;
+  color: var(--mantine-color-purpleHoneycreeper-6);
+  letter-spacing: -2px;
+}
+
+.result > span {
+  color: var(--mantine-color-mattBlack-6);
+}

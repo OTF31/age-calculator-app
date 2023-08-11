@@ -1,0 +1,17 @@
+.main {
+  background-color: var(--mantine-color-snowflake-6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  --container-size: rem(343px);
+  background-color: var(--mantine-color-white);
+  padding: rem(48px) rem(24px);
+  border-radius: rem(24px) rem(24px) rem(100px) rem(24px);
+
+  @media (min-width: $mantine-breakpoint-xl) {
+    --container-size: rem(840px);
+  }
+}
