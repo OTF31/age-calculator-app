@@ -17,7 +17,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ColorSchemeScript />
       </head>
       <body>
-        <MantineProvider theme={theme}>{children}</MantineProvider>
+        <MantineProvider theme={theme} defaultColorScheme='light'>
+          {children}
+        </MantineProvider>
       </body>
     </html>
   )
