@@ -1,0 +1,38 @@
+.input {
+  border-radius: var(--mantine-radius-md);
+  border-color: var(--mantine-color-gainsboro-6);
+  font-weight: 700;
+  color: var(--mantine-color-mattBlack-6);
+
+  &:focus-within {
+    border-color: var(--mantine-color-purpleHoneycreeper-6);
+    caret-color: var(--mantine-color-purpleHoneycreeper-6);
+  }
+
+  &::placeholder {
+    color: var(--mantine-color-mattBlack-6);
+    opacity: 0.5;
+  }
+
+  &[data-error] {
+    border-color: var(--mantine-color-grapefruit-6);
+  }
+}
+
+.label {
+  color: var(--mantine-color-dugong-6);
+  font-size: var(--mantine-font-size-sm);
+  font-weight: 700;
+  letter-spacing: 3.5px;
+  margin-bottom: calc(var(--mantine-spacing-md) * 0.5);
+
+  &[data-error] {
+    color: var(--mantine-color-grapefruit-6);
+  }
+}
+
+.error {
+  color: var(--mantine-color-grapefruit-6);
+  font-size: var(--mantine-font-size-md);
+  font-style: italic;
+}
