@@ -1,10 +1,15 @@
 .result {
   font-size: rem(56px);
-  line-height: rem(56px);
+  line-height: rem(60px);
   font-weight: 800;
   font-style: italic;
   color: var(--mantine-color-purpleHoneycreeper-6);
   letter-spacing: -2px;
+
+  @media (min-width: $mantine-breakpoint-xl) {
+    font-size: rem(104px);
+    line-height: rem(114px);
+  }
 }
 
 .result > span {

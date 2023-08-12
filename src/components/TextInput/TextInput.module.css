@@ -3,6 +3,7 @@
   border-color: var(--mantine-color-gainsboro-6);
   font-weight: 700;
   color: var(--mantine-color-mattBlack-6);
+  max-width: rem(160px);
 
   &:focus-within {
     border-color: var(--mantine-color-purpleHoneycreeper-6);
