@@ -1,7 +1,7 @@
 import { AppShell, AppShellMain, Container } from '@mantine/core'
 
-import classes from './styles.module.css'
 import Form from './_components/Form'
+import classes from './styles.module.css'
 
 const Home = () => {
   return (
