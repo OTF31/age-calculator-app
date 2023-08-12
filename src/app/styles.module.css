@@ -7,6 +7,7 @@
 
 .container {
   --container-size: rem(343px);
+  width: var(--container-size);
   background-color: var(--mantine-color-white);
   padding: rem(48px) rem(24px);
   border-radius: rem(24px) rem(24px) rem(100px) rem(24px);
